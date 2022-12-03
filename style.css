@@ -99,5 +99,32 @@ button {
 }
 
 .info-img {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.quote-container {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-weight: lighter;
+    font-size: 36px;
+    max-width: 500px;
+    align-self: center;
+}
+
+.quote-sign {
+    font-weight: bold;
+    align-self: flex-end;
 }
