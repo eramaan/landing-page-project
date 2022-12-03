@@ -22,8 +22,11 @@ h1 {
     margin: 0;
 }
 
-img {
-    max-width: 450px;
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
 }
 
 button {
@@ -51,6 +54,10 @@ button {
     padding: 24px;
 }
 
+.hero-img {
+    max-width: 450px;
+}
+
 .dark-background {
     background-color: #1f2937;
     color: white;
@@ -73,4 +80,24 @@ button {
 
 .rounded {
     border-radius: 8px;
+}
+
+.info{
+    padding: 24px 0;
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    max-width: 150px;
 }
