@@ -143,3 +143,8 @@ button {
     border: 2px solid white;
     align-self: center;
 }
+
+.footer {
+    padding: 24px;
+    text-align: center;
+}
