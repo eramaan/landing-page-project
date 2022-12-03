@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 48px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.dark-background {
+    background-color: #1f2937;
+    color: white;
+}
